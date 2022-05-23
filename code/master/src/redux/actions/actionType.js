@@ -1,0 +1,13 @@
+export const CREATED_GAME = "CREATED_GAME";
+export const GET_TEAMS = "GET_TEAMS";
+export const DELETE_TEAM = "DELETE_TEAM";
+export const GET_CATEGORIES = "GET_CATEGORIES";
+export const SET_CATEGORY = "SET_CATEGORY";
+export const SELECTED_QUESTIONS = "SELECTED_QUESTIONS";
+export const SET_CURRENT_QUESTION = "SET_CURRENT_QUESTION";
+export const GET_ANSWERS = "GET_ANSWERS";
+export const START_GAME = "START_GAME";
+export const STOP_GAME = "STOP_GAME";
+export const GET_CURRENT = "GET_CURRENT";
+export const SET_SCORES = "SET_SCORES";
+export const SET_ROUNDNUMBER = "SET_ROUNDNUMBER";

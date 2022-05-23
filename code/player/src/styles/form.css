@@ -1,0 +1,27 @@
+input[type="text"] {
+  background-color: rgba(0, 0, 0, 0);
+  text-align: center;
+  width: 125px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  font-weight: 800;
+}
+input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 110%;
+}
+.playerInput{
+  margin: 3% 0 0 5%;
+  min-width: 85%;
+}
+.Question input{
+  min-width: 75%;
+}
+.Removed{
+  display: flex;
+  min-height: 85vh;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background-image: url("../assest/background.png");
+  background-repeat: no-repeat;
+  background-position: 0%;
+}
+#root {
+  width: 100vw;
+  height: inherit;
+}
+.App {
+  width: inherit;
+  height: inherit;
+}

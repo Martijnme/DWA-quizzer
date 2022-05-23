@@ -1,0 +1,71 @@
+.App {
+  min-height: 100vh;
+  overflow: hidden;
+}
+.startScreen {
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.startScreen > div > h3 {
+  text-align: start;
+  margin-bottom: 5px;
+}
+.selectteams {
+  min-height: 55vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+.selectteams > .gameid {
+  position: absolute;
+  left: 5%;
+  top: 8%;
+}
+.selectteams > .teams {
+  padding: 10px;
+  min-width: 25vw;
+  float: right;
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0.656);
+  border-radius: 5px;
+}
+.gamescreen {
+  transform: translateY(15%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 75vh;
+  min-width: 80vw;
+}
+.picker {
+  min-width: 80vw;
+  min-height: 70vh;
+  justify-content: center;
+  align-items: center;
+}
+.picker-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 75vh;
+}
+.gamebuttons {
+  max-width: 96%;
+  height: 20vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 10px;
+}
+@media screen and (max-width: 615px) {
+  body {
+    display: none !important;
+    max-width: 0px;
+    max-height: 0px;
+  }
+}

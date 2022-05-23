@@ -1,0 +1,56 @@
+.pillar {
+  border: 1px solid rgba(0, 0, 0, 0.361);
+  width: 15vw;
+  height: 100%;
+}
+.first-pillar {
+  background-color: gold;
+  padding-top: 25%;
+  order: 2;
+}
+.second {
+  order: 1;
+  padding-top: 15%;
+  background-color: #e5e4e2;
+}
+.third {
+  order: 3;
+  padding-top: 8%;
+  background-color: #ab701d;
+}
+.pillar h3 {
+  color: black;
+  text-align: center;
+  position: relative;
+}
+.pillar h4 {
+  position: relative;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+.first-pillar h3 {
+  width: 100%;
+  text-align: center;
+  top: -38vh;
+  font-weight: bold;
+  font-size: 135%;
+}
+.second h3 {
+  top: -25vh;
+}
+.third h3 {
+  top: -15vh;
+}
+.first-pillar h4 {
+  top: -30vh;
+  font-size: 185%;
+}
+.second h4 {
+  top: -20vh;
+  font-size: 185%;
+}
+.third h4 {
+  top: -12vh;
+  font-size: 185%;
+}

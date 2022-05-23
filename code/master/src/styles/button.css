@@ -1,0 +1,71 @@
+.btn {
+  margin-top: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  text-justify: center;
+}
+.clear-btn {
+  width: inherit;
+  color: black;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 185%;
+  font-weight: 500;
+}
+.clear-btn::after {
+  display: flex;
+  flex-direction: column;
+  content: "add player";
+  font-size: 35%;
+  font-weight: 300;
+}
+button:active {
+  color: rgba(255, 255, 255, 0.286);
+}
+button:hover {
+  color: rgba(255, 255, 255, 0.286);
+  cursor: pointer;
+}
+.btn-center {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+.btn-primary {
+  top: 80%;
+  font-weight: 450;
+  color: white;
+  border-color: white;
+  background-color: rgba(255, 255, 255, 0.35);
+  width: 115px;
+  font-size: 105%;
+  height: 35px;
+}
+.cross {
+  width: 32px;
+  height: 30px;
+  margin-left: 10px;
+  float: right;
+  background: none;
+  opacity: 0.3;
+}
+.cross:hover {
+  opacity: 1;
+}
+.cross:before,
+.cross:after {
+  position: absolute;
+  content: " ";
+  margin-top: -17px;
+  height: 33px;
+  width: 2px;
+  background-color: rgb(255, 0, 0);
+}
+
+.cross:before {
+  transform: rotate(45deg);
+}
+.cross:after {
+  transform: rotate(-45deg);
+}

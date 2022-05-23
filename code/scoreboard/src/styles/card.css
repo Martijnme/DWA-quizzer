@@ -1,0 +1,30 @@
+.teamcard{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(39, 38, 38, 0.457);
+    justify-content: center;
+    border: 3px solid  rgb(0, 0, 0);
+    color: white;
+    width: 150px;
+    height: 125px;
+    border-radius: 8px;
+    padding: 3px;
+    text-align: center;
+    text-justify: center;
+    margin: 10px;
+}
+h3,h4{
+    padding: 0;margin: 0;
+    font-weight: 500;
+}
+.first{
+    background-color:rgba(255, 217, 0, 0.738);
+    border: 3px solid  rgba(255, 215, 0, 1);
+    color: rgb(42, 42, 42);
+}
+.disabled{
+    border: 3px solid  rgb(11, 149, 133);
+    background-color: rgba(45, 203, 185, 0.5);
+    color: black;
+    opacity: 0.5;
+}
